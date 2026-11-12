@@ -1,0 +1,11 @@
+PROJECT_NAME           = "ESP32: OTA e IA con regresion logistica"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = src include README.md
+FILE_PATTERNS          = *.cpp *.h *.md
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO
